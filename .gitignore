@@ -8,6 +8,9 @@
 # testing
 /coverage
 
+# vs code
+iesguide.code-workspace
+
 # production
 /build
 
