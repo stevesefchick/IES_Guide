@@ -7,7 +7,6 @@ import XenonBio from '../CharactersPage/XenonBio/Xenon';
 
 const display = () => (
     <div>
-
         <CharactersPage name = "Ian"
                         bio={<IanBio/>}
                         job1 = "Job 1"
