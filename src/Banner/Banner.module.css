@@ -1,0 +1,7 @@
+.basic {
+    color: whitesmoke;
+    height: 100px;
+    width: 100%;
+    background-image: linear-gradient( black 40%, grey);
+    border-bottom: 3px solid rgb(191, 191, 191);
+}

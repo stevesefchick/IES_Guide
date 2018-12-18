@@ -5,9 +5,11 @@ import FayeBio from '../../CharactersPage/FayeBio/FayeBio';
 import IanBio from '../../CharactersPage/IanBio/IanBio';
 import XenonBio from '../../CharactersPage/XenonBio/Xenon';
 
+import style from './CharactersPageDisplay.module.css';
 
 const charactersPageDisplay = () => (
     <div>
+        <div className={style.basic}>
 
         <CharactersPage name = "Ian"
                         bio={<IanBio/>}
@@ -40,6 +42,7 @@ const charactersPageDisplay = () => (
                         job3 = "Job 3"
                         job4 = "Job 4"
                         job5 = "Job 5"/>
+        </div>
 
     </div>
 );
