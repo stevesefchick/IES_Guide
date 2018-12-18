@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 const charactersPage = (props) => (
     <div>
         <p>{props.name}</p>
