@@ -3,9 +3,9 @@ import style from "./Banner.module.css";
 
 const banner = () => (
 <div className={style.basic}>
-    <p>blah</p>
-
-
+    <div className={style.text}>
+        <p>Wimbus Studios Mockup</p>
+    </div>
 </div>
 
 

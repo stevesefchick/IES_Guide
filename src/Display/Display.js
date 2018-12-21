@@ -4,14 +4,14 @@ import CharactersPageDisplay from '../CharactersPage/CharactersPageDisplay/Chara
 import Banner from '../Banner/Banner';
 
 const display = () => (
+
     <div className={style.gridContainer}>
-<div className={style.container}>
+      <div className={style.banner}>
      <Banner/>
-
-
-
-        <CharactersPageDisplay/>
-</div>
+      </div>
+        <div className={style.content}>
+            <CharactersPageDisplay/>
+        </div>
     </div>
 );
 

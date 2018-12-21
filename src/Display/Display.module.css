@@ -1,16 +1,22 @@
 .gridContainer {
     display: grid;
-    width: 100%;grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    width: 100%;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
     grid-template-rows: auto;
-    grid-template-areas:
-
-            " . content content content content content content content content ."
+    grid-template-areas: "banner banner banner banner banner banner banner banner banner banner"
+    " . content content content content content content content content .";
 }
 
 .banner{
     grid-area: banner;
 }
-.container {
+
+.content {
     grid-area: content;
-    background-color: teal;
+    background-color: #00c2d7;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(191, 191, 191);
+    width: 100%;
 }
+
